@@ -1,0 +1,74 @@
+----Ex1 = Demandez à l’utilisateur de saisir un nombre. Si le nombre saisie par l’utilisateur est positif , affichez « Le nombre est positif » et sinon affichez « Le nombre est négatif »
+                  public static void main(String[] args) {
+                  		Scanner S= new Scanner(System.in);
+                  		int i;
+                  		System.out.println(" Voyer saisir un nombre");
+                  		i=S.nextInt();
+                  		if(i>=0) {
+                  			System.out.println("Le nombre est positif");
+                  		}
+                  		else {
+                  			System.out.println("Le nombre est négatif");
+                  			
+                  		}
+                  	}
+----Ex2 = Demandez à l’utilisateur de saisir un nombre, si ce dernier est compris entre 10 et 100 affichez « Le nombre est bien dans l’intervalle » et sinon affichez « Le nombre n’est pas dans l’intervalle »
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                		int i;
+                		System.out.println(" Voyer saisir un nombre");
+                		i=S.nextInt();
+                		if(i>=10 && i<=100) {
+                			System.out.println("Le nombre est bien dans l’intervalle");
+                		}
+                		else {
+                			System.out.println("Le nombre n’est pas dans l’intervalle");
+                			
+                		}
+                	}
+----Ex3 = Demandez à l’utilisateur de saisir 3 nombres a, b et c.
+          • Si a=b et b=c, affichez le message suivant : « les 3 valeurs sont égales »,
+          sinon si a est différente de b affichez le message suivant : « a est
+          différente de b »
+          • Si a est égale à b mais cette valeur est différente de c, affichez le
+          message suivant : « la valeur de a est égale à la valeur de b, mais elle est
+          différente de la valeur de c »
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                		int a,b,c;
+                		System.out.println(" Voyer saisir un nombre");
+                		a=S.nextInt();
+                		System.out.println(" Voyer saisir un nombre");
+                		b=S.nextInt();
+                		System.out.println(" Voyer saisir un nombre");
+                		c=S.nextInt();
+                		if(a==b && b==c) {
+                			System.out.println("les 3 valeurs sont égales");
+                		}
+                		else if(a==b && b!=c){
+                			System.out.println("la valeur de a est égale à la valeur de b, mais elle est différente de la valeur de c");	
+                		}
+                		else if(a!=b){
+                			System.out.println("a est différente de b");
+                			
+                		}
+                		else {
+                			System.out.println("Rien");
+                		}
+                	}
+----Ex4 = Ecrire un algorithme en Java qui vérifie si un entier est pair ou impair
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                		int a;
+                		System.out.println(" Voyer saisir un nombre");
+                		a=S.nextInt();
+                		
+                		if(a%2==0) {
+                			System.out.println("Le nombre est paire");
+                		}
+                		else {
+                			System.out.println("Le nombre est impaire");
+                		}
+                	}
+
+
