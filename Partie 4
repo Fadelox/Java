@@ -1,0 +1,44 @@
+----Ex1 = Calculer la somme de deux nombre d apre un tableu pre-declarer et l’afficher à l’écran
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                    	int tab[]= {25,98,96,32};
+                    	System.out.println("La somme est "+(tab[0]+tab[1]));
+                    	
+                  }
+----Ex2 = En utilisant l’instruction length, afficher à l’écran le contenu du tableau précédent
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                			int tab[]= {25,98,96,32};
+                			for(int i=0;i<tab.length;i++) {
+                			System.out.println("La  valeur de dimension"+i+" est "+tab[i]);
+                			}
+                			
+                  }
+----Ex3 = Donner toutes les valeurs d’un tableau T1 à un autre T2 en utilisant le stockage par référence
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                			int tab[]= {25,98,96,32};
+                			int tab2[]=new int[4];
+                			tab2=tab;
+                			for(int i=0;i<tab2.length;i++) {
+                			System.out.println("La  valeur de dimension"+i+" est "+tab2[i]);
+                			}
+                			
+                  }
+----Ex4 = Afficher dans la console les éléments d’un tableau d’entiers multidimensionnel qui se compose de 3 colonnes et 5 lignes (donner des valeurs statiques au tableau)
+                	public static void main(String[] args) {
+                		Scanner S= new Scanner(System.in);
+                			int tab[][]= {{1,2,3,4},{5,6,7,8}};
+                			int i,j;
+                			for( j=0;j<tab.length;j++) {
+                			for( i=0;i<tab[j].length;i++) {
+                			System.out.println("La  valeur de ligne"+j+"colone"+i+"est "+tab[j][i]);
+                			}}
+                    }
+
+
+
+
+
+
+
