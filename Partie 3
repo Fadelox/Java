@@ -24,6 +24,52 @@
             	  default :   System.out.println("Salut monsieur");
             	   }
             	}
-----Ex2
+----Ex2 = Ecrire un algorithme qui permet à l’ordinateur de répondre l’utilisateur en fonction de son âge.
+          – si l’utilisateur a 7 ans, alors l’ordinateur va afficher la phrase « Bonjour
+          gamin »
+          – Si l’utilisateur a 18 ans, alors l’ordinateur va afficher la phrase « Bonjour
+          l’adulte »
+          – Si l’utilisateur a 69 ans, alors l’ordinateur va afficher la phrase « Bonjour
+          papy »
+          – Sinon l’ordinateur affiche « Salut»
+          	public static void main(String[] args) {
+          		Scanner S= new Scanner(System.in);
+          		int v;
+          	System.out.println("Saisi un nombre");
+          	   v=S.nextInt();
+          	   switch(v){
+          	   case 7 :
+          		   System.out.println("Bonjour gamin");
+          		   break;
+          	   case 18 :
+          		   System.out.println("Bonsoir l’adulte");
+          		   break;
+          	   case 69 :
+          		   System.out.println("Bonjour papy");
+          		   break; 
+          	  default :   System.out.println("Salut ");
+          	   }
+          	}
+----Ex3 = Afficher le double d’un chiffre d’une liste allant de 1 à 10
+          	public static void main(String[] args) {
+          		Scanner S= new Scanner(System.in);
+          	int i;
+          	for(i=1;i<=10;i++) {
+          		System.out.println("Le double de "+i+" est "+i*2);
+          	}
+          	
+          	}
+----Ex4 = Demandez à l’utilisateur de saisir son âge. Si son âge est négatif ou égal à 0, lui redemander de le ressaisir.
+          	public static void main(String[] args) {
+          		Scanner S= new Scanner(System.in);
+          	int i;
+          	do {
+          	System.out.println("Voyer saisir ton age");
+          	i=S.nextInt();
+          	
+          	
+          	}while(i<=0);
+          	System.out.println("Merci");
+                    }
 
 
