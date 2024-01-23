@@ -1,0 +1,29 @@
+----Ex1 =  En utilisant l’instruction « Switch », écrire un algorithme qui permet à l’ordinateur de répondre l’utilisateur en fonction de ce qu’il dit:
+          – Si l’utilisateur dit « Bonjour », alors l’ordinateur va afficher la
+          phrase « Bonjour Monsieur »
+          – Si l’utilisateur dit « Bonsoir », alors l’ordinateur va afficher la
+          phrase « Bonsoir Monsieur »
+          – Si l’utilisateur dit « Bonne nuit », alors l’ordinateur va afficher la
+          phrase « Bonne nuit Monsieur»
+          – Sinon l’ordinateur affiche « Salut»
+            	public static void main(String[] args) {
+            		Scanner S= new Scanner(System.in);
+            		String v;
+            	System.out.println("Saisi premier mot que vous dit quand vous rencontrez quelqu un");
+            	   v=S.nextLine();
+            	   switch(v){
+            	   case "Bonjour" :
+            		   System.out.println("Bonjour monsieur");
+            		   break;
+            	   case "Bonsoir" :
+            		   System.out.println("Bonsoir monsieur");
+            		   break;
+            	   case "Bonne nuit" :
+            		   System.out.println("Bonne nuit monsieur");
+            		   break; 
+            	  default :   System.out.println("Salut monsieur");
+            	   }
+            	}
+----Ex2
+
+
