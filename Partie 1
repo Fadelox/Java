@@ -47,6 +47,7 @@
               		C1=S.nextLine();
               		System.out.println(" Voyer saisir une autre chaine de caracter");
               		C2=S.nextLine();
+;
               		
               		System.out.println(i+" "+C1+" "+C2);
               	}
