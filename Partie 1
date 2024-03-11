@@ -1,9 +1,9 @@
-----Ex1 = Calculer le résultat de l’opération suivante :100-30/2 et afficher le résultat à l’écran:
+------Ex1 = Calculer le résultat de l’opération suivante :100-30/2 et afficher le résultat à l’écran:
                 public static void main(String[] args) {
                     int a=100-30;
                   	System.out.println(a/2);
               	}
-----Ex2 = Ecrire un programme qui permet de :
+------Ex2 = Ecrire un programme qui permet de :
      Demander à l’utilisateur de saisir un entier et stocker cette valeur dans une variable X
      Donner le contenu de la variable X à une autre variable Y
      Afficher le contenu des deux variables à l’écran
@@ -16,7 +16,7 @@
                 		y=x;
                 		System.out.println("La valeur de x:"+x+" et de y:"+y);
             	  }
-----Ex3 = Ecrire un programme qui demande un nombre à l’utilisateur, puis calcule et affiche le carré de ce nombre.
+------Ex3 = Ecrire un programme qui demande un nombre à l’utilisateur, puis calcule et affiche le carré de ce nombre.
                 public static void main(String[] args) {
                 		Scanner S= new Scanner(System.in);
                 		int i;
@@ -24,7 +24,7 @@
                 		i=S.nextInt();
                 		System.out.println("La valeur est "+i*i);
               	}
-----Ex4 =Ecrire un programme qui lit deux chaînes de caractères données par l’utilisateur, puis affiche une chaîne qui représente la concaténation des deux séparées par un + (« + ») . Exemple si l’utilisateur donne les deux chaînes : «Je» et «mange» le programme affichera «Je + mange».
+------Ex4 =Ecrire un programme qui lit deux chaînes de caractères données par l’utilisateur, puis affiche une chaîne qui représente la concaténation des deux séparées par un + (« + ») . Exemple si l’utilisateur donne les deux chaînes : «Je» et «mange» le programme affichera «Je + mange».
               	public static void main(String[] args) {
               		Scanner S= new Scanner(System.in);
               		String v,b,n;
